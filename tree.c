@@ -35,8 +35,6 @@ void countDirFile(FileNode *root, int *dirs, int *files);
 void freeTree(FileNode *root);
 char* getBaseName(void);
 
-// ================== 已补全的函数 ==================
-
 // 创建新结点（分配内存、复制字符串、初始化指针）
 FileNode* createNode(const char *name, int isDir) {
     FileNode *node = (FileNode*)malloc(sizeof(FileNode));
